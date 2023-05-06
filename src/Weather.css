@@ -1,0 +1,41 @@
+/* CSS code for the weather icons */
+.weather-card__temperature img {
+  height: 80px;
+  margin-right: 20px;
+  width: 80px;
+}
+
+/* Weather icons */
+.weather-card__temperature img[src$="01d.png"] {
+  content: url("https://www.weatherbit.io/static/img/icons/animated/day/clearSkyDay.svg");
+}
+.weather-card__temperature img[src$="01n.png"] {
+  content: url("https://www.weatherbit.io/static/img/icons/animated/night/clearSkyNight.svg");
+}
+.weather-card__temperature img[src$="02d.png"] {
+  content: url("https://www.weatherbit.io/static/img/icons/animated/day/fewCloudsDay.svg");
+}
+.weather-card__temperature img[src$="02n.png"] {
+  content: url("https://www.weatherbit.io/static/img/icons/animated/night/fewCloudsNight.svg");
+}
+.weather-card_temperature img[src$="03d.png"], .weather-card_temperature img[src$="03n.png"] {
+  content: url("https://www.weatherbit.io/static/img/icons/animated/cloudy.svg");
+}
+.weather-card_temperature img[src$="04d.png"], .weather-card_temperature img[src$="04n.png"] {
+  content: url("https://www.weatherbit.io/static/img/icons/animated/brokenClouds.svg");
+}
+.weather-card_temperature img[src$="09d.png"], .weather-card_temperature img[src$="09n.png"] {
+  content: url("https://www.weatherbit.io/static/img/icons/animated/day/showerRain.svg");
+}
+.weather-card_temperature img[src$="10d.png"], .weather-card_temperature img[src$="10n.png"] {
+  content: url("https://www.weatherbit.io/static/img/icons/animated/day/rainDay.svg");
+}
+.weather-card_temperature img[src$="11d.png"], .weather-card_temperature img[src$="11n.png"] {
+  content: url("https://www.weatherbit.io/static/img/icons/animated/day/thunderstorm.svg");
+}
+.weather-card_temperature img[src$="13d.png"], .weather-card_temperature img[src$="13n.png"] {
+  content: url("https://www.weatherbit.io/static/img/icons/animated/day/snow.svg");
+}
+.weather-card_temperature img[src$="50d.png"], .weather-card_temperature img[src$="50n.png"] {
+  content: url("https://www.weatherbit.io/static/img/icons/animated/day/mist.svg");
+}
